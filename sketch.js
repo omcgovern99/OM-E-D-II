@@ -1,14 +1,14 @@
 
 function preload (){
-  window1 = loadImage ('/Images/DayWindow3.png');
-  window2 = loadImage ('/Images/DayWindow2.png');
-  window3 = loadImage ('/Images/DayWindow4.png');
-  window4 = loadImage ('/Images/DayWindow5.png');
+  window1 = loadImage ('Images/DayWindow3.png');
+  window2 = loadImage ('Images/DayWindow2.png');
+  window3 = loadImage ('Images/DayWindow4.png');
+  window4 = loadImage ('Images/DayWindow5.png');
 
 }
 
 function setup() {
-  createCanvas(windowWidth, windowWidth);
+  createCanvas(windowWidth, windowHeight);
   frameRate (0.5);
 noStroke ();
 }
